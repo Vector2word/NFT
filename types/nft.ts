@@ -1,5 +1,5 @@
 
-export type Trait = "attack" | "health" | "speed";
+export type Trait = "Year" | "Collection" | "Number";
 
 export type NftAttribute = {
   trait_type: Trait;

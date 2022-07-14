@@ -21,6 +21,7 @@ const Home: NextPage = () => {
             <p className="mt-3 max-w-2xl mx-auto text-xl text-gray-500 sm:mt-4">
               Mint a NFT to get unlimited ownership forever!
             </p>
+            
           </div>
           { network.isConnectedToNetwork ?
             <NftList /> :

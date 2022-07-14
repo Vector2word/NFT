@@ -26,9 +26,9 @@ const NftCreate: NextPage = () => {
     description: "",
     image: "",
     attributes: [
-      {trait_type: "attack", value: "0"},
-      {trait_type: "health", value: "0"},
-      {trait_type: "speed", value: "0"},
+      {trait_type: "Year", value: "0"},
+      {trait_type: "Collection", value: "0"},
+      {trait_type: "Number", value: "0"},
     ]
   });
 
